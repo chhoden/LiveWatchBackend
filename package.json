@@ -1,0 +1,24 @@
+{
+  "name": "livewatchbackend",
+  "version": "1.0.0",
+  "description": "NodeJS project for talking to Nest API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhoden/LiveWatchBackend.git"
+  },
+  "author": "Chhoden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhoden/LiveWatchBackend/issues"
+  },
+  "homepage": "https://github.com/chhoden/LiveWatchBackend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.2.1"
+  }
+}
