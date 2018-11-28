@@ -18,6 +18,7 @@
   "homepage": "https://github.com/chhoden/LiveWatchBackend#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "node-fetch": "^2.2.1"
   }
