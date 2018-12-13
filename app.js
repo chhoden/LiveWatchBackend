@@ -47,15 +47,17 @@ const history = [];
     const newEvent = req.body;
     const found = history.find((event) => {
         return (
-            newEvent.start_time === event.start_time &&
-            newEvent.end_time === event.end_time
+            newEvent.start_time === event.start_time
         );
     });
       
     if(found) {
         res.send(history);
     } else {
-        history.push(newEvent);
+        if(history.length === 12){
+            history.pop();
+        }
+        history.unshift(newEvent);
         res.send(history);
     }
  }
